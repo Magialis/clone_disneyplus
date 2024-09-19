@@ -37,6 +37,17 @@
                 overflow: hidden;
                 padding: 0 24px;
                 transition: height, .5s ease;
+                font-size: 16px!important;
+
+                &__list {
+                    padding-left: 40px;
+                    list-style-type: disc;
+                }
+
+                a {
+                    color: silver;
+                    font-weight: 700;
+                }
             }
 
             &--is-open {
